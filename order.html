@@ -1,0 +1,24 @@
+<html>
+
+<body>
+
+<h1>Ordering item</h1>
+
+<form action="update.php" method="post" id="product">
+  
+<br>
+Name of Product: 
+<select name="ProductName" form="product">
+	<option value='select product'>Select</option>
+	<option value="Pencil 2B">Pencil 2B</option>
+	<option value="Pencil 2H">Pencil 2H</option>
+	<option value="Pencil HB">Pencil HB</option>
+</select>
+
+<p> How many: <input type="text" name="noOfRequest" /><br><br>
+<input type="submit" />
+<button type="cancel" onclick="window.location='index.php';return false;">Cancel</button>
+</form>
+
+</body>
+</html>
